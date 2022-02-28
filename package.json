@@ -1,0 +1,44 @@
+{
+  "name": "react-ts",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/helper-module-imports": "7.16.0",
+    "@babel/runtime": "^7.16.3",
+    "@babel/template": "7.16.0",
+    "@babel/types": "7.16.0",
+    "@chakra-ui/react": "1.7.2",
+    "@emotion/react": "11.6.0",
+    "@emotion/styled": "11.6.0",
+    "@types/react": "16.14.21",
+    "@types/react-dom": "16.9.14",
+    "@urql/core": "2.3.5",
+    "axios": "^0.24.0",
+    "babel-plugin-macros": "3.1.0",
+    "formik": "^2.2.9",
+    "framer-motion": "5.3.1",
+    "graphql": "15.7.2",
+    "immer": "^9.0.12",
+    "jotai": "^1.6.0",
+    "jotai/utils": "*",
+    "optics-ts": "2.2.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-query": "3.33.2",
+    "react-router-dom": "6",
+    "rxjs": "^7.5.4",
+    "valtio": "^1.3.0",
+    "wonka": "^4.0.15",
+    "xstate": "^4.30.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "react-scripts-ts": "latest"
+  }
+}
